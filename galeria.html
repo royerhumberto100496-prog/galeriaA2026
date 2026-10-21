@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colaboradores</title>
+  
+  <!-- Enlaza tu mismo archivo de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+  
+  <style>
+    /* Estilos solo para esta página si lo necesitas aquí */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+    .contenedor-colaboradores {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .tarjeta {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 250px;
+    }
+    .tarjeta img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .tarjeta h3 {
+      margin: 10px 0 5px;
+      color: #222;
+    }
+    .tarjeta p {
+      font-size: 14px;
+      color: #666;
+    }
+    .boton-regresar {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #fff;
+      background: #4CAF50;
+      padding: 10px 20px;
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+    }
+    .boton-regresar:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nuestro Equipo</h1>
+
+  <div class="contenedor-colaboradores">
+    
+    <!-- Colaborador 1 -->
+    <div class="tarjeta">
+      <img src="img/ara1.png" alt="Nombre">
+      <h3>Nombre Completo</h3>
+      <p>Rol o área</p>
+    </div>
+
+    <!-- Colaborador 2 -->
+    <div class="tarjeta">
+      <img src="img/ara.png" alt="Nombre">
+      <h3>Nombre Completo</h3>
+      <p>Rol o área</p>
+    </div>
+
+    <!-- Colaborador 3 -->
+    <div class="tarjeta">
+      <img src="img/ara3.png" alt="Nombre">
+      <h3>Nombre Completo</h3>
+      <p>Rol o área</p>
+    </div>
+
+  </div>
+
+  <!-- Botón para regresar a tu página principal -->
+  <a href="index.html" class="boton-regresar">← Regresar</a>
+
+</body>
+</html>

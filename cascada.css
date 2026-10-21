@@ -1,0 +1,42 @@
+#encabezado button{
+	padding: 12px 25px;
+	font-size: 16pt;
+	font-color:black;
+	font-family: calibri;
+	border: none;
+	cursor: pointer;
+	background-color: white;
+	transition: .3s;
+}
+#encabezado button:hover{
+	border: 1px solid red;
+	color:red;
+}
+#cuerpo table{
+	width: 80%;
+	padding: 20px;
+}
+#cuerpo table th{
+	width: 32%;
+}
+#cuerpo table th img{
+	width: 30%;
+}
+#cuerpo table{
+	color: red;
+	font-family: calibri;
+	font-size: 15pt ;
+}
+#cuerpo table th p{
+	color: black;
+	font-family: calibri;
+	font-size: 12pt;
+
+}
+#tabla td h1{
+	color: red;
+	font-family: arial;
+	font-size: 12pt;
+}
+#tabla td p {
+	font-family: calibri;
