@@ -1,0 +1,2 @@
+# galeriaA2026
+GALERIA DE ARACELI
